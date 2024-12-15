@@ -3,7 +3,7 @@ import pandas as pd
 dataframe_csv = pd.read_csv('data-sampah-jabar.csv')
 
 # 1. Buatlah sebuah DataFrame dari data jumlah produksi sampah berdasarkan Kabupaten/Kota di Jawa Barat. 
-# Membuat dataframe baru hanya berisi kolom 'Kabupaten/Kota', 'Jumlah Produksi Sampah (ton)', dan 'Tahum'.
+# Membuat dataframe baru hanya berisi kolom 'Kabupaten/Kota', 'Jumlah Produksi Sampah (ton)', dan 'Tahun'.
 dataframe_baru = dataframe_csv[['nama_kabupaten_kota', 'jumlah_produksi_sampah', 'satuan','tahun' ]] 
 
 #2. Hitunglah total produksi sampah di seluruh Kabupaten/Kota di Jawa Barat untuk tahun tertentu. 
